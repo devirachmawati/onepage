@@ -45,6 +45,32 @@ $handler->display->display_options['fields']['field_image']['settings'] = array(
   'image_style' => '',
   'image_link' => '',
 );
+/* Field: Content: Edit link */
+$handler->display->display_options['fields']['edit_node']['id'] = 'edit_node';
+$handler->display->display_options['fields']['edit_node']['table'] = 'views_entity_node';
+$handler->display->display_options['fields']['edit_node']['field'] = 'edit_node';
+$handler->display->display_options['fields']['edit_node']['label'] = '';
+$handler->display->display_options['fields']['edit_node']['exclude'] = TRUE;
+$handler->display->display_options['fields']['edit_node']['element_label_colon'] = FALSE;
+/* Field: Content: Delete link */
+$handler->display->display_options['fields']['delete_node']['id'] = 'delete_node';
+$handler->display->display_options['fields']['delete_node']['table'] = 'views_entity_node';
+$handler->display->display_options['fields']['delete_node']['field'] = 'delete_node';
+$handler->display->display_options['fields']['delete_node']['label'] = '';
+$handler->display->display_options['fields']['delete_node']['exclude'] = TRUE;
+$handler->display->display_options['fields']['delete_node']['element_label_colon'] = FALSE;
+/* Field: Global: Contextual Links */
+$handler->display->display_options['fields']['contextual_links']['id'] = 'contextual_links';
+$handler->display->display_options['fields']['contextual_links']['table'] = 'views';
+$handler->display->display_options['fields']['contextual_links']['field'] = 'contextual_links';
+$handler->display->display_options['fields']['contextual_links']['label'] = '';
+$handler->display->display_options['fields']['contextual_links']['element_label_colon'] = FALSE;
+$handler->display->display_options['fields']['contextual_links']['fields'] = array(
+  'edit_node' => 'edit_node',
+  'delete_node' => 'delete_node',
+  'body' => 0,
+  'field_image' => 0,
+);
 /* Sort criterion: Content: Post date */
 $handler->display->display_options['sorts']['created']['id'] = 'created';
 $handler->display->display_options['sorts']['created']['table'] = 'node';
@@ -96,13 +122,39 @@ $handler->display->display_options['fields']['field_image']['settings'] = array(
     'bg_image_color' => '#FFFFFF',
     'bg_image_x' => 'left',
     'bg_image_y' => 'top',
-    'bg_image_attachment' => 'scroll',
+    'bg_image_attachment' => 'fixed',
     'bg_image_repeat' => 'no-repeat',
     'bg_image_background_size' => '',
     'bg_image_background_size_ie8' => 0,
     'bg_image_media_query' => 'all',
-    'bg_image_important' => 1,
+    'bg_image_important' => 0,
   ),
+);
+/* Field: Content: Edit link */
+$handler->display->display_options['fields']['edit_node']['id'] = 'edit_node';
+$handler->display->display_options['fields']['edit_node']['table'] = 'views_entity_node';
+$handler->display->display_options['fields']['edit_node']['field'] = 'edit_node';
+$handler->display->display_options['fields']['edit_node']['label'] = '';
+$handler->display->display_options['fields']['edit_node']['exclude'] = TRUE;
+$handler->display->display_options['fields']['edit_node']['element_label_colon'] = FALSE;
+/* Field: Content: Delete link */
+$handler->display->display_options['fields']['delete_node']['id'] = 'delete_node';
+$handler->display->display_options['fields']['delete_node']['table'] = 'views_entity_node';
+$handler->display->display_options['fields']['delete_node']['field'] = 'delete_node';
+$handler->display->display_options['fields']['delete_node']['label'] = '';
+$handler->display->display_options['fields']['delete_node']['exclude'] = TRUE;
+$handler->display->display_options['fields']['delete_node']['element_label_colon'] = FALSE;
+/* Field: Global: Contextual Links */
+$handler->display->display_options['fields']['contextual_links']['id'] = 'contextual_links';
+$handler->display->display_options['fields']['contextual_links']['table'] = 'views';
+$handler->display->display_options['fields']['contextual_links']['field'] = 'contextual_links';
+$handler->display->display_options['fields']['contextual_links']['label'] = '';
+$handler->display->display_options['fields']['contextual_links']['element_label_colon'] = FALSE;
+$handler->display->display_options['fields']['contextual_links']['fields'] = array(
+  'edit_node' => 'edit_node',
+  'delete_node' => 'delete_node',
+  'body' => 0,
+  'field_image' => 0,
 );
 $handler->display->display_options['block_description'] = 'One';
 
@@ -130,15 +182,41 @@ $handler->display->display_options['fields']['field_image']['settings'] = array(
   'css_settings' => array(
     'bg_image_selector' => '#block-views-one-two',
     'bg_image_color' => '#FFFFFF',
-    'bg_image_x' => 'left',
+    'bg_image_x' => 'middle',
     'bg_image_y' => 'top',
-    'bg_image_attachment' => 'scroll',
+    'bg_image_attachment' => 'fixed',
     'bg_image_repeat' => 'no-repeat',
     'bg_image_background_size' => '',
     'bg_image_background_size_ie8' => 0,
     'bg_image_media_query' => 'all',
     'bg_image_important' => 1,
   ),
+);
+/* Field: Content: Edit link */
+$handler->display->display_options['fields']['edit_node']['id'] = 'edit_node';
+$handler->display->display_options['fields']['edit_node']['table'] = 'views_entity_node';
+$handler->display->display_options['fields']['edit_node']['field'] = 'edit_node';
+$handler->display->display_options['fields']['edit_node']['label'] = '';
+$handler->display->display_options['fields']['edit_node']['exclude'] = TRUE;
+$handler->display->display_options['fields']['edit_node']['element_label_colon'] = FALSE;
+/* Field: Content: Delete link */
+$handler->display->display_options['fields']['delete_node']['id'] = 'delete_node';
+$handler->display->display_options['fields']['delete_node']['table'] = 'views_entity_node';
+$handler->display->display_options['fields']['delete_node']['field'] = 'delete_node';
+$handler->display->display_options['fields']['delete_node']['label'] = '';
+$handler->display->display_options['fields']['delete_node']['exclude'] = TRUE;
+$handler->display->display_options['fields']['delete_node']['element_label_colon'] = FALSE;
+/* Field: Global: Contextual Links */
+$handler->display->display_options['fields']['contextual_links']['id'] = 'contextual_links';
+$handler->display->display_options['fields']['contextual_links']['table'] = 'views';
+$handler->display->display_options['fields']['contextual_links']['field'] = 'contextual_links';
+$handler->display->display_options['fields']['contextual_links']['label'] = '';
+$handler->display->display_options['fields']['contextual_links']['element_label_colon'] = FALSE;
+$handler->display->display_options['fields']['contextual_links']['fields'] = array(
+  'edit_node' => 'edit_node',
+  'delete_node' => 'delete_node',
+  'body' => 0,
+  'field_image' => 0,
 );
 $handler->display->display_options['defaults']['filter_groups'] = FALSE;
 $handler->display->display_options['defaults']['filters'] = FALSE;
@@ -189,13 +267,39 @@ $handler->display->display_options['fields']['field_image']['settings'] = array(
     'bg_image_color' => '#FFFFFF',
     'bg_image_x' => 'left',
     'bg_image_y' => 'top',
-    'bg_image_attachment' => 'scroll',
+    'bg_image_attachment' => 'fixed',
     'bg_image_repeat' => 'no-repeat',
     'bg_image_background_size' => '',
     'bg_image_background_size_ie8' => 0,
     'bg_image_media_query' => 'all',
     'bg_image_important' => 1,
   ),
+);
+/* Field: Content: Edit link */
+$handler->display->display_options['fields']['edit_node']['id'] = 'edit_node';
+$handler->display->display_options['fields']['edit_node']['table'] = 'views_entity_node';
+$handler->display->display_options['fields']['edit_node']['field'] = 'edit_node';
+$handler->display->display_options['fields']['edit_node']['label'] = '';
+$handler->display->display_options['fields']['edit_node']['exclude'] = TRUE;
+$handler->display->display_options['fields']['edit_node']['element_label_colon'] = FALSE;
+/* Field: Content: Delete link */
+$handler->display->display_options['fields']['delete_node']['id'] = 'delete_node';
+$handler->display->display_options['fields']['delete_node']['table'] = 'views_entity_node';
+$handler->display->display_options['fields']['delete_node']['field'] = 'delete_node';
+$handler->display->display_options['fields']['delete_node']['label'] = '';
+$handler->display->display_options['fields']['delete_node']['exclude'] = TRUE;
+$handler->display->display_options['fields']['delete_node']['element_label_colon'] = FALSE;
+/* Field: Global: Contextual Links */
+$handler->display->display_options['fields']['contextual_links']['id'] = 'contextual_links';
+$handler->display->display_options['fields']['contextual_links']['table'] = 'views';
+$handler->display->display_options['fields']['contextual_links']['field'] = 'contextual_links';
+$handler->display->display_options['fields']['contextual_links']['label'] = '';
+$handler->display->display_options['fields']['contextual_links']['element_label_colon'] = FALSE;
+$handler->display->display_options['fields']['contextual_links']['fields'] = array(
+  'edit_node' => 'edit_node',
+  'delete_node' => 'delete_node',
+  'body' => 0,
+  'field_image' => 0,
 );
 $handler->display->display_options['defaults']['filter_groups'] = FALSE;
 $handler->display->display_options['defaults']['filters'] = FALSE;
