@@ -3,3 +3,18 @@
 
 /*
 * Custom Overide */
+$border-test : 2px solid red;
+$dis : 10px;
+
+#block-views-one-one{
+  padding-top: $dis * 6;
+  border: $border-test;
+}
+#block-views-one-two{
+  padding-top: $dis * 6;
+  border: $border-test;
+}
+#block-views-one-three{
+  padding-top: $dis * 6;
+  border: $border-test;
+}

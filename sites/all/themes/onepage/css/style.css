@@ -8540,3 +8540,20 @@ button.close {
 }
 /*
 * Custom Overide */
+/* line 9, ../custom-sass/style.scss */
+#block-views-one-one {
+  padding-top: 60px;
+  border: 2px solid red;
+}
+
+/* line 13, ../custom-sass/style.scss */
+#block-views-one-two {
+  padding-top: 60px;
+  border: 2px solid red;
+}
+
+/* line 17, ../custom-sass/style.scss */
+#block-views-one-three {
+  padding-top: 60px;
+  border: 2px solid red;
+}
