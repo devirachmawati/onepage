@@ -7,3 +7,6 @@ sites/*/private
 
 # Ignore devel module
 sites/all/modules/devel
+
+# Ignore .sass-cache
+sites/all/themes/onepage/.sass-cache

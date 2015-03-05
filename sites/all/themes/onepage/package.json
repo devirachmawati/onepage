@@ -1,0 +1,14 @@
+{
+  "name"      : "onepage",
+  "version"   : "3.3.1",
+  "author"    : "onepage",
+  "homepage"  : "http://localhost/newonepage/",
+  "engines"   : {
+    "node" : ">= v0.10.33"
+  },
+  "devDependencies" : {
+    "grunt-contrib-compass" : "v1.0.1",
+    "grunt-contrib-sass"    : "v0.8.1",
+    "grunt-contrib-watch"   : "v0.6.1"
+  }
+}
