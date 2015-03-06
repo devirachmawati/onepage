@@ -8,7 +8,7 @@ $api = '2.0.0';
 
 $data = array(
   'name' => 'jquery_update_jquery_version',
-  'content' => 'default',
+  'content' => '1.7',
 );
 
 $dependencies = array();
