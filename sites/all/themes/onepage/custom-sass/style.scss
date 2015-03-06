@@ -1,20 +1,71 @@
 @import '../sass/bootstrap.scss';
 @import 'compass';
-
+@import url(http://fonts.googleapis.com/css?family=Bitter);
 /*
 * Custom Overide */
 $border-test : 2px solid red;
 $dis : 10px;
-
+$marginlr: 20px;
+body{
+  font-family: 'Bitter', serif;
+}
 #block-views-one-one{
   padding-top: $dis * 6;
-  border: $border-test;
+  padding-bottom: $dis * 4;
 }
 #block-views-one-two{
   padding-top: $dis * 6;
-  border: $border-test;
+  padding-bottom: $dis * 4;
 }
 #block-views-one-three{
   padding-top: $dis * 6;
-  border: $border-test;
+  padding-bottom: $dis * 4;
+}
+#block-views-one-galeri{
+  padding-top: $dis * 6;
+  padding-bottom: $dis * 4;
+  .content{
+    table.views-view-grid{
+      margin-right: auto;
+      margin-left: auto;
+      tr{
+        td{
+          .field-content img{
+            margin-left:$marginlr;
+            margin-right: $marginlr;
+          }
+        }
+      }
+    }
+  }
+}
+#block-views-one-contact{
+  padding-top: $dis * 6;
+  padding-bottom: $dis * 6;
+  .container{
+    text-align: center;
+    h2{
+      color: #ffffff;
+      font-size: $dis * 3;
+    }
+    .content{
+      .field-content p{
+        font-size: $dis + 5;
+        color: #ffffff;
+        font-weight: bold;
+        a{
+          color: #ffffff;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+#block-views-one-footer{
+  background-color: #555;
+  padding: 3%;
+  text-align: center;
+  .field-content p{
+    color: #ffffff;
+  }
 }
