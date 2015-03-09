@@ -1,6 +1,7 @@
 @import '../sass/bootstrap.scss';
 @import 'compass';
 @import url(http://fonts.googleapis.com/css?family=Bitter);
+@import url(http://fonts.googleapis.com/css?family=Arbutus+Slab);
 /*
 * Custom Overide */
 $border-test : 2px solid red;
@@ -8,6 +9,12 @@ $dis : 10px;
 $marginlr: 20px;
 body{
   font-family: 'Bitter', serif;
+}
+.container{
+  text-align: justify;
+}
+h2.block-title{
+  font-family: 'Arbutus Slab', serif;
 }
 #block-views-one-one{
   padding-top: $dis * 6;
@@ -68,4 +75,25 @@ body{
   .field-content p{
     color: #ffffff;
   }
+}
+/* JCarousel Slider Style*/
+.jcarousel-skin-default{
+  margin-bottom: 200px;
+}
+.jcarousel-skin-default .jcarousel-item{
+  width: 500px;
+  height: 280px;
+  border: none;
+  @include box-shadow(grey 2px 2px 5px);
+}
+.jcarousel-skin-default .jcarousel-container-horizontal{
+  width: 100%;
+}
+.jcarousel-skin-default .jcarousel-clip-horizontal{
+  width: 96%;
+  margin-left: 20px;
+}
+span.field-content{
+  font-family: 'Arbutus Slab', serif;
+  font-size: 15px;
 }

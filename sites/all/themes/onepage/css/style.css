@@ -1,5 +1,6 @@
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 @import url(http://fonts.googleapis.com/css?family=Bitter);
+@import url(http://fonts.googleapis.com/css?family=Arbutus+Slab);
 /* line 9, ../sass/bootstrap/_normalize.scss */
 html {
   font-family: sans-serif;
@@ -8541,78 +8542,121 @@ button.close {
 }
 /*
 * Custom Overide */
-/* line 9, ../custom-sass/style.scss */
+/* line 10, ../custom-sass/style.scss */
 body {
   font-family: 'Bitter', serif;
 }
 
-/* line 12, ../custom-sass/style.scss */
+/* line 13, ../custom-sass/style.scss */
+.container {
+  text-align: justify;
+}
+
+/* line 16, ../custom-sass/style.scss */
+h2.block-title {
+  font-family: 'Arbutus Slab', serif;
+}
+
+/* line 19, ../custom-sass/style.scss */
 #block-views-one-one {
   padding-top: 60px;
   padding-bottom: 40px;
 }
 
-/* line 16, ../custom-sass/style.scss */
+/* line 23, ../custom-sass/style.scss */
 #block-views-one-two {
   padding-top: 60px;
   padding-bottom: 40px;
 }
 
-/* line 20, ../custom-sass/style.scss */
+/* line 27, ../custom-sass/style.scss */
 #block-views-one-three {
   padding-top: 60px;
   padding-bottom: 40px;
 }
 
-/* line 24, ../custom-sass/style.scss */
+/* line 31, ../custom-sass/style.scss */
 #block-views-one-galeri {
   padding-top: 60px;
   padding-bottom: 40px;
 }
-/* line 28, ../custom-sass/style.scss */
+/* line 35, ../custom-sass/style.scss */
 #block-views-one-galeri .content table.views-view-grid {
   margin-right: auto;
   margin-left: auto;
 }
-/* line 33, ../custom-sass/style.scss */
+/* line 40, ../custom-sass/style.scss */
 #block-views-one-galeri .content table.views-view-grid tr td .field-content img {
   margin-left: 20px;
   margin-right: 20px;
 }
 
-/* line 42, ../custom-sass/style.scss */
+/* line 49, ../custom-sass/style.scss */
 #block-views-one-contact {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-/* line 45, ../custom-sass/style.scss */
+/* line 52, ../custom-sass/style.scss */
 #block-views-one-contact .container {
   text-align: center;
 }
-/* line 47, ../custom-sass/style.scss */
+/* line 54, ../custom-sass/style.scss */
 #block-views-one-contact .container h2 {
   color: #ffffff;
   font-size: 30px;
 }
-/* line 52, ../custom-sass/style.scss */
+/* line 59, ../custom-sass/style.scss */
 #block-views-one-contact .container .content .field-content p {
   font-size: 15px;
   color: #ffffff;
   font-weight: bold;
 }
-/* line 56, ../custom-sass/style.scss */
+/* line 63, ../custom-sass/style.scss */
 #block-views-one-contact .container .content .field-content p a {
   color: #ffffff;
   text-decoration: underline;
 }
 
-/* line 64, ../custom-sass/style.scss */
+/* line 71, ../custom-sass/style.scss */
 #block-views-one-footer {
   background-color: #555;
   padding: 3%;
   text-align: center;
 }
-/* line 68, ../custom-sass/style.scss */
+/* line 75, ../custom-sass/style.scss */
 #block-views-one-footer .field-content p {
   color: #ffffff;
+}
+
+/* JCarousel Slider Style*/
+/* line 80, ../custom-sass/style.scss */
+.jcarousel-skin-default {
+  margin-bottom: 200px;
+}
+
+/* line 83, ../custom-sass/style.scss */
+.jcarousel-skin-default .jcarousel-item {
+  width: 500px;
+  height: 280px;
+  border: none;
+  -moz-box-shadow: grey 2px 2px 5px;
+  -webkit-box-shadow: grey 2px 2px 5px;
+  box-shadow: grey 2px 2px 5px;
+}
+
+/* line 89, ../custom-sass/style.scss */
+.jcarousel-skin-default .jcarousel-container-horizontal {
+  width: 100%;
+}
+
+/* line 92, ../custom-sass/style.scss */
+.jcarousel-skin-default .jcarousel-clip-horizontal {
+  width: 96%;
+  margin-left: 20px;
+}
+
+/* line 96, ../custom-sass/style.scss */
+span.field-content {
+  font-family: 'Arbutus Slab', serif;
+  font-size: 15px;
 }
