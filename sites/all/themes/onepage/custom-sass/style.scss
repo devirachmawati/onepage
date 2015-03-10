@@ -15,8 +15,15 @@ body{
 }
 h2.block-title{
   font-family: 'Arbutus Slab', serif;
+  text-align: center;
+  font-size: $dis * 4;
+  margin-bottom: $dis * 4;
+  text-decoration: underline;
 }
 #block-views-one-one{
+  padding-bottom: 50%;
+}
+#block-views-one-services{
   padding-top: $dis * 6;
   padding-bottom: $dis * 4;
 }
@@ -27,6 +34,9 @@ h2.block-title{
 #block-views-one-three{
   padding-top: $dis * 6;
   padding-bottom: $dis * 4;
+  .container{
+    color: #ffffff;
+  }
 }
 #block-views-one-galeri{
   padding-top: $dis * 6;
@@ -37,9 +47,21 @@ h2.block-title{
       margin-left: auto;
       tr{
         td{
-          .field-content img{
-            margin-left:$marginlr;
-            margin-right: $marginlr;
+          .field-content {
+            img{
+              margin-left:$marginlr;
+              margin-right: $marginlr;
+              opacity:0.4;
+              &:hover { opacity:1.0; }
+            }
+            a{
+              font-size: 20px;
+              color: #555;
+            }
+          }
+          .views-field{
+            margin: 10px 20px;
+            text-align: center;
           }
         }
       }
@@ -76,24 +98,70 @@ h2.block-title{
     color: #ffffff;
   }
 }
+
 /* JCarousel Slider Style*/
-.jcarousel-skin-default{
-  margin-bottom: 200px;
-}
-.jcarousel-skin-default .jcarousel-item{
-  width: 500px;
-  height: 280px;
-  border: none;
-  @include box-shadow(grey 2px 2px 5px);
-}
-.jcarousel-skin-default .jcarousel-container-horizontal{
-  width: 100%;
-}
-.jcarousel-skin-default .jcarousel-clip-horizontal{
-  width: 96%;
-  margin-left: 20px;
+#block-views-one-carousel-about{
+  margin: $dis * 3;
+  .jcarousel-skin-default{
+    margin-bottom: 200px;
+    .jcarousel-item{
+      width: 500px;
+      height: 280px;
+      border: none;
+      @include box-shadow(grey 2px 2px 5px);
+    }
+    .jcarousel-container-horizontal{
+      width: 100%;
+    }
+    .jcarousel-clip-horizontal{
+      width: 96%;
+      margin-left: 20px;
+      .views-field.views-field-title{
+        .field-content{
+          font-size: 20px;
+          font-style: italic;
+        }
+      }
+      ul li{
+        margin: 0 33px;
+      }
+    }
+    .jcarousel-prev-horizontal, .jcarousel-next-horizontal{
+      top: 145px;
+    }
+  }
 }
 span.field-content{
   font-family: 'Arbutus Slab', serif;
   font-size: 15px;
+}
+
+#block-views-one-one{
+  .jcarousel-skin-default{
+    .jcarousel-item{
+      width: auto;
+      height: auto;
+      overflow: visible;
+    }
+    .jcarousel-container-horizontal{
+      width: 100%;
+      padding: 0;
+    }
+    .jcarousel-clip-horizontal{
+      ul.li .field-content img{
+        width: 100%;
+        height: 100%;
+      }
+      width: auto;
+    }
+    .jcarousel-prev{
+      background-image: none;
+    }
+    .jcarousel-next{
+      background-image: none;
+    }
+    .jcarousel-item-horizontal{
+      margin: 0;
+    }
+  }
 }

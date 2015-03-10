@@ -8555,87 +8555,118 @@ body {
 /* line 16, ../custom-sass/style.scss */
 h2.block-title {
   font-family: 'Arbutus Slab', serif;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 40px;
+  text-decoration: underline;
 }
 
-/* line 19, ../custom-sass/style.scss */
+/* line 23, ../custom-sass/style.scss */
 #block-views-one-one {
+  padding-bottom: 50%;
+}
+
+/* line 26, ../custom-sass/style.scss */
+#block-views-one-services {
   padding-top: 60px;
   padding-bottom: 40px;
 }
 
-/* line 23, ../custom-sass/style.scss */
+/* line 30, ../custom-sass/style.scss */
 #block-views-one-two {
   padding-top: 60px;
   padding-bottom: 40px;
 }
 
-/* line 27, ../custom-sass/style.scss */
+/* line 34, ../custom-sass/style.scss */
 #block-views-one-three {
   padding-top: 60px;
   padding-bottom: 40px;
 }
+/* line 37, ../custom-sass/style.scss */
+#block-views-one-three .container {
+  color: #ffffff;
+}
 
-/* line 31, ../custom-sass/style.scss */
+/* line 41, ../custom-sass/style.scss */
 #block-views-one-galeri {
   padding-top: 60px;
   padding-bottom: 40px;
 }
-/* line 35, ../custom-sass/style.scss */
+/* line 45, ../custom-sass/style.scss */
 #block-views-one-galeri .content table.views-view-grid {
   margin-right: auto;
   margin-left: auto;
 }
-/* line 40, ../custom-sass/style.scss */
+/* line 51, ../custom-sass/style.scss */
 #block-views-one-galeri .content table.views-view-grid tr td .field-content img {
   margin-left: 20px;
   margin-right: 20px;
+  opacity: 0.4;
+}
+/* line 55, ../custom-sass/style.scss */
+#block-views-one-galeri .content table.views-view-grid tr td .field-content img:hover {
+  opacity: 1.0;
+}
+/* line 57, ../custom-sass/style.scss */
+#block-views-one-galeri .content table.views-view-grid tr td .field-content a {
+  font-size: 20px;
+  color: #555;
+}
+/* line 62, ../custom-sass/style.scss */
+#block-views-one-galeri .content table.views-view-grid tr td .views-field {
+  margin: 10px 20px;
+  text-align: center;
 }
 
-/* line 49, ../custom-sass/style.scss */
+/* line 71, ../custom-sass/style.scss */
 #block-views-one-contact {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-/* line 52, ../custom-sass/style.scss */
+/* line 74, ../custom-sass/style.scss */
 #block-views-one-contact .container {
   text-align: center;
 }
-/* line 54, ../custom-sass/style.scss */
+/* line 76, ../custom-sass/style.scss */
 #block-views-one-contact .container h2 {
   color: #ffffff;
   font-size: 30px;
 }
-/* line 59, ../custom-sass/style.scss */
+/* line 81, ../custom-sass/style.scss */
 #block-views-one-contact .container .content .field-content p {
   font-size: 15px;
   color: #ffffff;
   font-weight: bold;
 }
-/* line 63, ../custom-sass/style.scss */
+/* line 85, ../custom-sass/style.scss */
 #block-views-one-contact .container .content .field-content p a {
   color: #ffffff;
   text-decoration: underline;
 }
 
-/* line 71, ../custom-sass/style.scss */
+/* line 93, ../custom-sass/style.scss */
 #block-views-one-footer {
   background-color: #555;
   padding: 3%;
   text-align: center;
 }
-/* line 75, ../custom-sass/style.scss */
+/* line 97, ../custom-sass/style.scss */
 #block-views-one-footer .field-content p {
   color: #ffffff;
 }
 
 /* JCarousel Slider Style*/
-/* line 80, ../custom-sass/style.scss */
-.jcarousel-skin-default {
+/* line 103, ../custom-sass/style.scss */
+#block-views-one-carousel-about {
+  margin: 30px;
+}
+/* line 105, ../custom-sass/style.scss */
+#block-views-one-carousel-about .jcarousel-skin-default {
   margin-bottom: 200px;
 }
-
-/* line 83, ../custom-sass/style.scss */
-.jcarousel-skin-default .jcarousel-item {
+/* line 107, ../custom-sass/style.scss */
+#block-views-one-carousel-about .jcarousel-skin-default .jcarousel-item {
   width: 500px;
   height: 280px;
   border: none;
@@ -8643,20 +8674,64 @@ h2.block-title {
   -webkit-box-shadow: grey 2px 2px 5px;
   box-shadow: grey 2px 2px 5px;
 }
-
-/* line 89, ../custom-sass/style.scss */
-.jcarousel-skin-default .jcarousel-container-horizontal {
+/* line 113, ../custom-sass/style.scss */
+#block-views-one-carousel-about .jcarousel-skin-default .jcarousel-container-horizontal {
   width: 100%;
 }
-
-/* line 92, ../custom-sass/style.scss */
-.jcarousel-skin-default .jcarousel-clip-horizontal {
+/* line 116, ../custom-sass/style.scss */
+#block-views-one-carousel-about .jcarousel-skin-default .jcarousel-clip-horizontal {
   width: 96%;
   margin-left: 20px;
 }
+/* line 120, ../custom-sass/style.scss */
+#block-views-one-carousel-about .jcarousel-skin-default .jcarousel-clip-horizontal .views-field.views-field-title .field-content {
+  font-size: 20px;
+  font-style: italic;
+}
+/* line 125, ../custom-sass/style.scss */
+#block-views-one-carousel-about .jcarousel-skin-default .jcarousel-clip-horizontal ul li {
+  margin: 0 33px;
+}
+/* line 129, ../custom-sass/style.scss */
+#block-views-one-carousel-about .jcarousel-skin-default .jcarousel-prev-horizontal, #block-views-one-carousel-about .jcarousel-skin-default .jcarousel-next-horizontal {
+  top: 145px;
+}
 
-/* line 96, ../custom-sass/style.scss */
+/* line 134, ../custom-sass/style.scss */
 span.field-content {
   font-family: 'Arbutus Slab', serif;
   font-size: 15px;
+}
+
+/* line 141, ../custom-sass/style.scss */
+#block-views-one-one .jcarousel-skin-default .jcarousel-item {
+  width: auto;
+  height: auto;
+  overflow: visible;
+}
+/* line 146, ../custom-sass/style.scss */
+#block-views-one-one .jcarousel-skin-default .jcarousel-container-horizontal {
+  width: 100%;
+  padding: 0;
+}
+/* line 150, ../custom-sass/style.scss */
+#block-views-one-one .jcarousel-skin-default .jcarousel-clip-horizontal {
+  width: auto;
+}
+/* line 151, ../custom-sass/style.scss */
+#block-views-one-one .jcarousel-skin-default .jcarousel-clip-horizontal ul.li .field-content img {
+  width: 100%;
+  height: 100%;
+}
+/* line 157, ../custom-sass/style.scss */
+#block-views-one-one .jcarousel-skin-default .jcarousel-prev {
+  background-image: none;
+}
+/* line 160, ../custom-sass/style.scss */
+#block-views-one-one .jcarousel-skin-default .jcarousel-next {
+  background-image: none;
+}
+/* line 163, ../custom-sass/style.scss */
+#block-views-one-one .jcarousel-skin-default .jcarousel-item-horizontal {
+  margin: 0;
 }
