@@ -8563,109 +8563,143 @@ h2.block-title {
 
 /* line 23, ../custom-sass/style.scss */
 #block-views-one-one {
-  padding-bottom: 50%;
+  padding-bottom: 43%;
+}
+/* line 30, ../custom-sass/style.scss */
+#block-views-one-one .view-content .jcarousel-clip ul li .views-field-body .field-content p {
+  z-index: 100;
+  position: relative;
+  color: #ffffff;
+  background-color: #5f5f5d;
+  text-align: left;
+  font-size: 17px;
+  width: 550px;
+  padding: 10px;
+  opacity: 0.5;
+  top: -150px;
+}
+/* line 44, ../custom-sass/style.scss */
+#block-views-one-one .view-content .jcarousel-clip ul li .views-field-field-image img {
+  position: relative;
 }
 
-/* line 26, ../custom-sass/style.scss */
+/* line 51, ../custom-sass/style.scss */
 #block-views-one-services {
   padding-top: 60px;
   padding-bottom: 40px;
 }
+/* line 56, ../custom-sass/style.scss */
+#block-views-one-services .content .view-content .views-row {
+  text-align: center;
+}
+/* line 59, ../custom-sass/style.scss */
+#block-views-one-services .content .view-content .views-row .views-field-field-image .field-content {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+/* line 65, ../custom-sass/style.scss */
+#block-views-one-services .content .view-content .views-row .views-field-field-image .field-content:hover {
+  -webkit-transform: rotate(-20deg);
+  -moz-transform: rotate(-20deg);
+  -o-transform: rotate(-20deg);
+  -ms-transform: rotate(-20deg);
+  transform: rotate(-20deg);
+}
+/* line 72, ../custom-sass/style.scss */
+#block-views-one-services .content .view-content .views-row .views-field-field-image .field-content img {
+  margin: 10px;
+}
 
-/* line 30, ../custom-sass/style.scss */
+/* line 81, ../custom-sass/style.scss */
 #block-views-one-two {
   padding-top: 60px;
   padding-bottom: 40px;
 }
 
-/* line 34, ../custom-sass/style.scss */
+/* line 85, ../custom-sass/style.scss */
 #block-views-one-three {
   padding-top: 60px;
   padding-bottom: 40px;
 }
-/* line 37, ../custom-sass/style.scss */
+/* line 88, ../custom-sass/style.scss */
 #block-views-one-three .container {
   color: #ffffff;
 }
 
-/* line 41, ../custom-sass/style.scss */
+/* line 92, ../custom-sass/style.scss */
 #block-views-one-galeri {
   padding-top: 60px;
   padding-bottom: 40px;
 }
-/* line 45, ../custom-sass/style.scss */
-#block-views-one-galeri .content table.views-view-grid {
-  margin-right: auto;
-  margin-left: auto;
+/* line 97, ../custom-sass/style.scss */
+#block-views-one-galeri .content .view-content .views-row {
+  text-align: center;
+  margin: 15px 0;
 }
-/* line 51, ../custom-sass/style.scss */
-#block-views-one-galeri .content table.views-view-grid tr td .field-content img {
-  margin-left: 20px;
-  margin-right: 20px;
+/* line 101, ../custom-sass/style.scss */
+#block-views-one-galeri .content .view-content .views-row .views-field-title a {
+  color: #000;
+  font-size: 15px;
+}
+/* line 108, ../custom-sass/style.scss */
+#block-views-one-galeri .content .view-content .views-row .views-field-field-image .field-content img {
   opacity: 0.4;
 }
-/* line 55, ../custom-sass/style.scss */
-#block-views-one-galeri .content table.views-view-grid tr td .field-content img:hover {
+/* line 110, ../custom-sass/style.scss */
+#block-views-one-galeri .content .view-content .views-row .views-field-field-image .field-content img:hover {
   opacity: 1.0;
 }
-/* line 57, ../custom-sass/style.scss */
-#block-views-one-galeri .content table.views-view-grid tr td .field-content a {
-  font-size: 20px;
-  color: #555;
-}
-/* line 62, ../custom-sass/style.scss */
-#block-views-one-galeri .content table.views-view-grid tr td .views-field {
-  margin: 10px 20px;
-  text-align: center;
-}
 
-/* line 71, ../custom-sass/style.scss */
+/* line 118, ../custom-sass/style.scss */
 #block-views-one-contact {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-/* line 74, ../custom-sass/style.scss */
+/* line 121, ../custom-sass/style.scss */
 #block-views-one-contact .container {
   text-align: center;
 }
-/* line 76, ../custom-sass/style.scss */
+/* line 123, ../custom-sass/style.scss */
 #block-views-one-contact .container h2 {
   color: #ffffff;
   font-size: 30px;
 }
-/* line 81, ../custom-sass/style.scss */
+/* line 128, ../custom-sass/style.scss */
 #block-views-one-contact .container .content .field-content p {
   font-size: 15px;
   color: #ffffff;
   font-weight: bold;
 }
-/* line 85, ../custom-sass/style.scss */
+/* line 132, ../custom-sass/style.scss */
 #block-views-one-contact .container .content .field-content p a {
   color: #ffffff;
   text-decoration: underline;
 }
 
-/* line 93, ../custom-sass/style.scss */
+/* line 140, ../custom-sass/style.scss */
 #block-views-one-footer {
   background-color: #555;
   padding: 3%;
   text-align: center;
 }
-/* line 97, ../custom-sass/style.scss */
+/* line 144, ../custom-sass/style.scss */
 #block-views-one-footer .field-content p {
   color: #ffffff;
 }
 
 /* JCarousel Slider Style*/
-/* line 103, ../custom-sass/style.scss */
+/* line 150, ../custom-sass/style.scss */
 #block-views-one-carousel-about {
   margin: 30px;
 }
-/* line 105, ../custom-sass/style.scss */
+/* line 152, ../custom-sass/style.scss */
 #block-views-one-carousel-about .jcarousel-skin-default {
   margin-bottom: 200px;
 }
-/* line 107, ../custom-sass/style.scss */
+/* line 154, ../custom-sass/style.scss */
 #block-views-one-carousel-about .jcarousel-skin-default .jcarousel-item {
   width: 500px;
   height: 280px;
@@ -8674,64 +8708,65 @@ h2.block-title {
   -webkit-box-shadow: grey 2px 2px 5px;
   box-shadow: grey 2px 2px 5px;
 }
-/* line 113, ../custom-sass/style.scss */
+/* line 160, ../custom-sass/style.scss */
 #block-views-one-carousel-about .jcarousel-skin-default .jcarousel-container-horizontal {
   width: 100%;
 }
-/* line 116, ../custom-sass/style.scss */
+/* line 163, ../custom-sass/style.scss */
 #block-views-one-carousel-about .jcarousel-skin-default .jcarousel-clip-horizontal {
   width: 96%;
   margin-left: 20px;
 }
-/* line 120, ../custom-sass/style.scss */
+/* line 167, ../custom-sass/style.scss */
 #block-views-one-carousel-about .jcarousel-skin-default .jcarousel-clip-horizontal .views-field.views-field-title .field-content {
   font-size: 20px;
   font-style: italic;
 }
-/* line 125, ../custom-sass/style.scss */
+/* line 172, ../custom-sass/style.scss */
 #block-views-one-carousel-about .jcarousel-skin-default .jcarousel-clip-horizontal ul li {
   margin: 0 33px;
 }
-/* line 129, ../custom-sass/style.scss */
+/* line 176, ../custom-sass/style.scss */
 #block-views-one-carousel-about .jcarousel-skin-default .jcarousel-prev-horizontal, #block-views-one-carousel-about .jcarousel-skin-default .jcarousel-next-horizontal {
   top: 145px;
 }
 
-/* line 134, ../custom-sass/style.scss */
+/* line 181, ../custom-sass/style.scss */
 span.field-content {
   font-family: 'Arbutus Slab', serif;
   font-size: 15px;
 }
 
-/* line 141, ../custom-sass/style.scss */
+/* line 188, ../custom-sass/style.scss */
 #block-views-one-one .jcarousel-skin-default .jcarousel-item {
   width: auto;
   height: auto;
   overflow: visible;
 }
-/* line 146, ../custom-sass/style.scss */
+/* line 193, ../custom-sass/style.scss */
 #block-views-one-one .jcarousel-skin-default .jcarousel-container-horizontal {
   width: 100%;
   padding: 0;
 }
-/* line 150, ../custom-sass/style.scss */
+/* line 197, ../custom-sass/style.scss */
 #block-views-one-one .jcarousel-skin-default .jcarousel-clip-horizontal {
   width: auto;
+  /*float: left;*/
 }
-/* line 151, ../custom-sass/style.scss */
+/* line 200, ../custom-sass/style.scss */
 #block-views-one-one .jcarousel-skin-default .jcarousel-clip-horizontal ul.li .field-content img {
   width: 100%;
   height: 100%;
 }
-/* line 157, ../custom-sass/style.scss */
+/* line 205, ../custom-sass/style.scss */
 #block-views-one-one .jcarousel-skin-default .jcarousel-prev {
   background-image: none;
 }
-/* line 160, ../custom-sass/style.scss */
+/* line 208, ../custom-sass/style.scss */
 #block-views-one-one .jcarousel-skin-default .jcarousel-next {
   background-image: none;
 }
-/* line 163, ../custom-sass/style.scss */
+/* line 211, ../custom-sass/style.scss */
 #block-views-one-one .jcarousel-skin-default .jcarousel-item-horizontal {
   margin: 0;
 }
