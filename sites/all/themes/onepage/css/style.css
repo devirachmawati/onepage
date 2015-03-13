@@ -8563,7 +8563,7 @@ h2.block-title {
 
 /* line 23, ../custom-sass/style.scss */
 #block-views-one-one {
-  padding-bottom: 43%;
+  height: 650px;
 }
 /* line 30, ../custom-sass/style.scss */
 #block-views-one-one .view-content .jcarousel-clip ul li .views-field-body .field-content p {
@@ -8588,11 +8588,21 @@ h2.block-title {
   padding-top: 60px;
   padding-bottom: 40px;
 }
-/* line 56, ../custom-sass/style.scss */
-#block-views-one-services .content .view-content .views-row {
-  text-align: center;
+/* line 52, ../custom-sass/style.scss */
+#block-views-one-services .container h2.block-title {
+  color: #361165;
 }
 /* line 59, ../custom-sass/style.scss */
+#block-views-one-services .content .view-content .views-row {
+  margin-top: 10px;
+  text-align: center;
+}
+/* line 62, ../custom-sass/style.scss */
+#block-views-one-services .content .view-content .views-row .views-field-field-image {
+  border-top: 5px solid #542889;
+  border-radius: 10px;
+}
+/* line 65, ../custom-sass/style.scss */
 #block-views-one-services .content .view-content .views-row .views-field-field-image .field-content {
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
@@ -8600,7 +8610,7 @@ h2.block-title {
   -ms-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-/* line 65, ../custom-sass/style.scss */
+/* line 71, ../custom-sass/style.scss */
 #block-views-one-services .content .view-content .views-row .views-field-field-image .field-content:hover {
   -webkit-transform: rotate(-20deg);
   -moz-transform: rotate(-20deg);
@@ -8608,98 +8618,107 @@ h2.block-title {
   -ms-transform: rotate(-20deg);
   transform: rotate(-20deg);
 }
-/* line 72, ../custom-sass/style.scss */
+/* line 78, ../custom-sass/style.scss */
 #block-views-one-services .content .view-content .views-row .views-field-field-image .field-content img {
   margin: 10px;
 }
+/* line 84, ../custom-sass/style.scss */
+#block-views-one-services .content .view-content .views-row .views-field-title span {
+  font-size: 20px;
+}
 
-/* line 81, ../custom-sass/style.scss */
+/* line 92, ../custom-sass/style.scss */
 #block-views-one-two {
   padding-top: 60px;
   padding-bottom: 40px;
 }
 
-/* line 85, ../custom-sass/style.scss */
+/* line 96, ../custom-sass/style.scss */
 #block-views-one-three {
   padding-top: 60px;
   padding-bottom: 40px;
 }
-/* line 88, ../custom-sass/style.scss */
+/* line 99, ../custom-sass/style.scss */
 #block-views-one-three .container {
   color: #ffffff;
 }
 
-/* line 92, ../custom-sass/style.scss */
+/* line 103, ../custom-sass/style.scss */
 #block-views-one-galeri {
   padding-top: 60px;
   padding-bottom: 40px;
 }
-/* line 97, ../custom-sass/style.scss */
+/* line 108, ../custom-sass/style.scss */
 #block-views-one-galeri .content .view-content .views-row {
   text-align: center;
   margin: 15px 0;
 }
-/* line 101, ../custom-sass/style.scss */
+/* line 112, ../custom-sass/style.scss */
 #block-views-one-galeri .content .view-content .views-row .views-field-title a {
   color: #000;
-  font-size: 15px;
+  font-size: 20px;
 }
-/* line 108, ../custom-sass/style.scss */
+/* line 119, ../custom-sass/style.scss */
 #block-views-one-galeri .content .view-content .views-row .views-field-field-image .field-content img {
   opacity: 0.4;
 }
-/* line 110, ../custom-sass/style.scss */
+/* line 121, ../custom-sass/style.scss */
 #block-views-one-galeri .content .view-content .views-row .views-field-field-image .field-content img:hover {
   opacity: 1.0;
 }
 
-/* line 118, ../custom-sass/style.scss */
+/* line 129, ../custom-sass/style.scss */
 #block-views-one-contact {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-/* line 121, ../custom-sass/style.scss */
+/* line 132, ../custom-sass/style.scss */
 #block-views-one-contact .container {
   text-align: center;
 }
-/* line 123, ../custom-sass/style.scss */
+/* line 134, ../custom-sass/style.scss */
 #block-views-one-contact .container h2 {
-  color: #ffffff;
+  /*color: #0667c9;*/
   font-size: 30px;
 }
-/* line 128, ../custom-sass/style.scss */
+/* line 139, ../custom-sass/style.scss */
 #block-views-one-contact .container .content .field-content p {
   font-size: 15px;
-  color: #ffffff;
+  /*color: #05759e;*/
   font-weight: bold;
 }
-/* line 132, ../custom-sass/style.scss */
+/* line 143, ../custom-sass/style.scss */
 #block-views-one-contact .container .content .field-content p a {
-  color: #ffffff;
+  color: #000;
   text-decoration: underline;
 }
 
-/* line 140, ../custom-sass/style.scss */
+/* line 151, ../custom-sass/style.scss */
 #block-views-one-footer {
-  background-color: #555;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y4ZjhmOCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2FhYWFhYSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f8f8f8), color-stop(100%, #aaaaaa));
+  background-image: -moz-linear-gradient(#f8f8f8, #aaaaaa);
+  background-image: -webkit-linear-gradient(#f8f8f8, #aaaaaa);
+  background-image: linear-gradient(#f8f8f8, #aaaaaa);
   padding: 3%;
   text-align: center;
 }
-/* line 144, ../custom-sass/style.scss */
+/* line 155, ../custom-sass/style.scss */
 #block-views-one-footer .field-content p {
-  color: #ffffff;
+  color: #000;
 }
 
 /* JCarousel Slider Style*/
-/* line 150, ../custom-sass/style.scss */
+/* line 161, ../custom-sass/style.scss */
 #block-views-one-carousel-about {
   margin: 30px;
 }
-/* line 152, ../custom-sass/style.scss */
+/* line 163, ../custom-sass/style.scss */
 #block-views-one-carousel-about .jcarousel-skin-default {
-  margin-bottom: 200px;
+  margin-bottom: 250px;
 }
-/* line 154, ../custom-sass/style.scss */
+/* line 165, ../custom-sass/style.scss */
 #block-views-one-carousel-about .jcarousel-skin-default .jcarousel-item {
   width: 500px;
   height: 280px;
@@ -8708,65 +8727,65 @@ h2.block-title {
   -webkit-box-shadow: grey 2px 2px 5px;
   box-shadow: grey 2px 2px 5px;
 }
-/* line 160, ../custom-sass/style.scss */
+/* line 171, ../custom-sass/style.scss */
 #block-views-one-carousel-about .jcarousel-skin-default .jcarousel-container-horizontal {
   width: 100%;
 }
-/* line 163, ../custom-sass/style.scss */
+/* line 174, ../custom-sass/style.scss */
 #block-views-one-carousel-about .jcarousel-skin-default .jcarousel-clip-horizontal {
-  width: 96%;
-  margin-left: 20px;
+  width: 100%;
 }
-/* line 167, ../custom-sass/style.scss */
+/* line 177, ../custom-sass/style.scss */
 #block-views-one-carousel-about .jcarousel-skin-default .jcarousel-clip-horizontal .views-field.views-field-title .field-content {
   font-size: 20px;
   font-style: italic;
 }
-/* line 172, ../custom-sass/style.scss */
+/* line 182, ../custom-sass/style.scss */
 #block-views-one-carousel-about .jcarousel-skin-default .jcarousel-clip-horizontal ul li {
   margin: 0 33px;
 }
-/* line 176, ../custom-sass/style.scss */
+/* line 186, ../custom-sass/style.scss */
 #block-views-one-carousel-about .jcarousel-skin-default .jcarousel-prev-horizontal, #block-views-one-carousel-about .jcarousel-skin-default .jcarousel-next-horizontal {
   top: 145px;
 }
 
-/* line 181, ../custom-sass/style.scss */
+/* line 191, ../custom-sass/style.scss */
 span.field-content {
   font-family: 'Arbutus Slab', serif;
   font-size: 15px;
 }
 
-/* line 188, ../custom-sass/style.scss */
+/* line 198, ../custom-sass/style.scss */
 #block-views-one-one .jcarousel-skin-default .jcarousel-item {
   width: auto;
   height: auto;
   overflow: visible;
+  border: none;
+  background: none;
 }
-/* line 193, ../custom-sass/style.scss */
+/* line 205, ../custom-sass/style.scss */
 #block-views-one-one .jcarousel-skin-default .jcarousel-container-horizontal {
   width: 100%;
   padding: 0;
 }
-/* line 197, ../custom-sass/style.scss */
+/* line 209, ../custom-sass/style.scss */
 #block-views-one-one .jcarousel-skin-default .jcarousel-clip-horizontal {
   width: auto;
-  /*float: left;*/
 }
-/* line 200, ../custom-sass/style.scss */
+/* line 211, ../custom-sass/style.scss */
 #block-views-one-one .jcarousel-skin-default .jcarousel-clip-horizontal ul.li .field-content img {
   width: 100%;
   height: 100%;
 }
-/* line 205, ../custom-sass/style.scss */
+/* line 216, ../custom-sass/style.scss */
 #block-views-one-one .jcarousel-skin-default .jcarousel-prev {
   background-image: none;
 }
-/* line 208, ../custom-sass/style.scss */
+/* line 219, ../custom-sass/style.scss */
 #block-views-one-one .jcarousel-skin-default .jcarousel-next {
   background-image: none;
 }
-/* line 211, ../custom-sass/style.scss */
+/* line 222, ../custom-sass/style.scss */
 #block-views-one-one .jcarousel-skin-default .jcarousel-item-horizontal {
   margin: 0;
 }

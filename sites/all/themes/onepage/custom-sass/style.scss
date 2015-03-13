@@ -21,7 +21,7 @@ h2.block-title{
   text-decoration: underline;
 }
 #block-views-one-one{
-  padding-bottom: 43%;
+  height: 650px;
   .view-content{
     .jcarousel-clip{
       ul li{
@@ -49,13 +49,19 @@ h2.block-title{
   }
 }
 #block-views-one-services{
+  .container h2.block-title{
+    color:#361165;
+  }
   padding-top: $dis * 6;
   padding-bottom: $dis * 4;
   .content{
     .view-content{
       .views-row{
+        margin-top: 10px;
         text-align: center;
         .views-field-field-image{
+          border-top: 5px solid #542889;
+          border-radius: 10px;
           .field-content{
             -webkit-transition: all 0.5s ease;
             -moz-transition: all 0.5s ease;
@@ -72,6 +78,11 @@ h2.block-title{
             img{
               margin: 10px;
             }
+          }
+        }
+        .views-field-title{
+          span{
+            font-size: 20px;
           }
         }
       }
@@ -100,7 +111,7 @@ h2.block-title{
         .views-field-title{
           a{
             color: #000;
-            font-size: 15px;
+            font-size: 20px;
           }
         }
         .views-field-field-image{
@@ -121,16 +132,16 @@ h2.block-title{
   .container{
     text-align: center;
     h2{
-      color: #ffffff;
+      /*color: #0667c9;*/
       font-size: $dis * 3;
     }
     .content{
       .field-content p{
         font-size: $dis + 5;
-        color: #ffffff;
+        /*color: #05759e;*/
         font-weight: bold;
         a{
-          color: #ffffff;
+          color: #000;
           text-decoration: underline;
         }
       }
@@ -138,11 +149,11 @@ h2.block-title{
   }
 }
 #block-views-one-footer{
-  background-color: #555;
+  @include background-image(linear-gradient(#f8f8f8, #aaaaaa));
   padding: 3%;
   text-align: center;
   .field-content p{
-    color: #ffffff;
+    color: #000;
   }
 }
 
@@ -150,7 +161,7 @@ h2.block-title{
 #block-views-one-carousel-about{
   margin: $dis * 3;
   .jcarousel-skin-default{
-    margin-bottom: 200px;
+    margin-bottom: 250px;
     .jcarousel-item{
       width: 500px;
       height: 280px;
@@ -161,8 +172,7 @@ h2.block-title{
       width: 100%;
     }
     .jcarousel-clip-horizontal{
-      width: 96%;
-      margin-left: 20px;
+      width: 100%;
       .views-field.views-field-title{
         .field-content{
           font-size: 20px;
@@ -189,6 +199,8 @@ span.field-content{
       width: auto;
       height: auto;
       overflow: visible;
+      border: none;
+      background: none;
     }
     .jcarousel-container-horizontal{
       width: 100%;
@@ -196,7 +208,6 @@ span.field-content{
     }
     .jcarousel-clip-horizontal{
       width: auto;
-      /*float: left;*/
       ul.li .field-content img{
         width: 100%;
         height: 100%;
